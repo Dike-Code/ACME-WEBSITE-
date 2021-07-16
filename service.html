@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="description" content="Acme Webpage | Project" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="./css/acme.css" />
+      <link rel="stylesheet" type="text/css" href="./css/media_query.css" />
+      <title>Service | Page</title>
+   </head>
+   <body>
+      <header class="header">
+         <div class="container flex head_container">
+            <a href="index.html" class="logo">
+               <h1>
+                  <span class="code">&lt;</span>
+                  <span class="code"> Dike's</span> Designs
+                  <span class="code">&#47; &gt;</span>
+               </h1>
+            </a>
+
+            <div class="toggle" id="mobile_menu">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+            </div>
+
+            <nav>
+               <ul class="nav_bar">
+                  <li class="nav__items">
+                     <a href="index.html" class="nav_link">Home</a>
+                  </li>
+                  <li class="nav__items">
+                     <a href="about.html" class="nav_link">About</a>
+                  </li>
+                  <li class="nav__items">
+                     <a href="service.html" class="nav_link current">Service</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+
+      <section class="newsletter">
+         <div class="container flex">
+            <h3>Subscribe for Newsletters</h3>
+            <form action="" class="form">
+               <div class="form_control">
+                  <input
+                     type="email"
+                     id="email"
+                     name="email"
+                     placeholder="@youremail.com"
+                  />
+                  <button class="btn" type="submit">Subscribe</button>
+               </div>
+            </form>
+         </div>
+      </section>
+
+      <section class="service">
+         <div class="container grid">
+            <ul class="list">
+               <li class="list_items">
+                  <h1>Website Design</h1>
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Fugit cum quam sit itaque placeat nostrum eos provident et
+                     necessitatibus reiciendis tempora, ab, dolore eveniet
+                     magnam sunt autem enim minus eaque eum ipsum obcaecati
+                     alias.
+                  </p>
+                  <p>$100,500</p>
+               </li>
+               <li class="list_items">
+                  <h1>Website Maintenace</h1>
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Amet, ducimus, fuga accusantium perspiciatis quod ad,
+                     tempore suscipit enim nihil iure cupiditate illo quibusdam
+                     cumque inventore necessitatibus blanditiis voluptate maxime
+                     quia consequuntur.
+                  </p>
+                  <p>$200,500</p>
+               </li>
+               <li class="list_items">
+                  <h1>Website Debugging</h1>
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Rem illo ducimus eius nesciunt excepturi voluptatem dolor
+                     laudantium culpa similique autem voluptas sint nostrum
+                     doloremque quia, repudiandae dolorem quibusdam quae quam
+                     dolores eligendi cupiditate.
+                  </p>
+                  <p>$600,500</p>
+               </li>
+            </ul>
+
+            <form action="" class="form">
+               <div class="form_control">
+                  <div>
+                     <label for="name"
+                        >Name:<br />
+                        <input type="text" name="username" id="name" required />
+                     </label>
+                  </div>
+                  <div>
+                     <label for="mail"
+                        >Email:<br />
+                        <input type="email" id="mail" name="email" />
+                     </label>
+                  </div>
+                  <div>
+                     <label for="Message"
+                        >Message:<br />
+                        <textarea
+                           name="Message"
+                           id="Message"
+                           cols="40"
+                           rows="10"
+                        ></textarea>
+                     </label>
+                  </div>
+                  <button type="submit">Submit</button>
+               </div>
+            </form>
+         </div>
+      </section>
+
+      <footer class="footer">
+         <div class="container flex">
+            <p class="copy">&copy; Copyright 2021</p>
+         </div>
+      </footer>
+      <script src="./js/acme.js"></script>
+   </body>
+</html>

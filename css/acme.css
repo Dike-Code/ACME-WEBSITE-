@@ -1,0 +1,284 @@
+*,
+html {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+
+body {
+   background: #ccc;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   line-height: 1.6;
+}
+
+img {
+   width: 100%;
+}
+
+/*utilities*/
+.container {
+   width: 90%;
+   margin: 0 auto;
+   height: auto;
+}
+.grid {
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 20px;
+}
+
+.flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.highlight {
+   background: #2b2929;
+   color: #fff;
+}
+.code {
+   color: #a7047e;
+}
+
+.current {
+   background: #a7047e;
+   margin: 10px;
+   transition: all 0.5s ease;
+}
+
+.header {
+   background: #141414;
+   margin: 0 auto;
+   height: 80px;
+   border: 0;
+   border-bottom: 3px solid #a7047e;
+}
+
+.header .flex {
+   justify-content: space-between;
+}
+
+.header .container {
+   height: 80px;
+   margin: 0 auto;
+}
+
+.logo {
+   font-weight: 600;
+   font-size: 1rem;
+   color: #fff;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   height: 80px;
+}
+
+.nav_bar {
+   list-style-type: none;
+   display: flex;
+   align-items: center;
+   height: 80px;
+}
+
+.nav__items .nav_link {
+   display: flex;
+   align-items: center;
+   font-size: 1.5rem;
+   font-weight: 400;
+   text-decoration: none;
+   padding: 0 20px;
+   color: #fff;
+   height: 80px;
+}
+.nav__items .nav_link:hover {
+   background: #a7047e;
+   transition: all 0.5s ease;
+}
+
+.hero {
+   background: url("../img/pexels.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 500px;
+   color: #fff;
+}
+
+.hero .container {
+   margin: 0 auto;
+   height: inherit;
+   text-align: center;
+}
+
+.hero .flex {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.hero h2 {
+   font-size: 3rem;
+}
+.hero p {
+   font-size: 1.1rem;
+   max-width: 80%;
+}
+
+.newsletter {
+   background: #a7047e;
+   color: #fff;
+   height: auto;
+}
+.newsletter .container {
+   width: 90%;
+   margin: 0 auto;
+   height: 100%;
+}
+.newsletter .flex {
+   justify-content: space-between;
+}
+
+.newsletter h3 {
+   font-size: 1.5rem;
+}
+
+.newsletter input[type="email"] {
+   width: 250px;
+   margin: 10px auto;
+   padding: 10px;
+   border: none;
+   outline: none;
+}
+.newsletter button[type="submit"] {
+   background: #141414;
+   color: #a7047e;
+   padding: 11px;
+   border: none;
+   outline: none;
+}
+
+.skills .container {
+   margin: 0 auto;
+   text-align: center;
+   height: 500px;
+}
+
+.skill_content {
+   margin: auto 20px;
+   padding: 15px;
+}
+
+.skill_content img {
+   width: 20%;
+}
+
+.skill_content p {
+   font-size: 1.1rem;
+}
+
+.footer {
+   background: #a7047e;
+   padding: 30px;
+   color: #fff;
+}
+.footer .copy {
+   font-size: 1.1rem;
+   font-weight: bold;
+}
+
+/*about page*/
+
+.about {
+   width: 100%;
+   padding-bottom: 5%;
+   margin: 15px auto;
+}
+
+.about .flex {
+   justify-content: space-between;
+   align-items: start;
+   gap: 20px;
+}
+.about .container {
+   width: 90%;
+   margin: 0 auto;
+   height: auto;
+}
+.about_content {
+   width: 70%;
+}
+.about_content h1 {
+   padding: 2px;
+}
+.about_content p {
+   padding: 2px;
+}
+
+.side_bar {
+   width: 30%;
+   margin: 10px auto;
+}
+
+.side_bar p {
+   padding: 2px;
+}
+
+.service {
+   margin: 15px auto;
+}
+.service .container {
+   width: 90%;
+   height: auto;
+}
+
+.service .grid {
+   grid-template-columns: 2fr 1fr;
+}
+
+.service .list {
+   list-style-type: none;
+}
+.service .list_items {
+   border: 1px solid #141414;
+   margin: 10px auto;
+   padding: 2px;
+}
+.service .form {
+   width: 100%;
+   margin: 10px auto;
+   background: #fff;
+   box-shadow: 0px 3px 10px #141414;
+}
+.service .form_control {
+   padding: 20px;
+}
+.service input[type="text"] {
+   width: 100%;
+   margin: 5px 0;
+   padding: 10px;
+   border: 0;
+   border-bottom: 2px solid #141414;
+   outline: none;
+}
+.service input[type="email"] {
+   width: 100%;
+   padding: 10px;
+   border: 0;
+   border-bottom: 2px solid #141414;
+   outline: none;
+}
+.service textarea {
+   width: 100%;
+   margin: 5px 0;
+   outline: none;
+   height: 10%;
+}
+.service button[type="submit"] {
+   background: #141414;
+   color: #fff;
+   padding: 11px;
+   border: none;
+   outline: none;
+}
